@@ -1,0 +1,276 @@
+[0.019s] Invoking command in '/home/kisrane/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kisrane/panda_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/kisrane/panda_ws/install/franka_description
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.230s] -- The CXX compiler identification is GNU 13.3.0
+[0.258s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.422s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.577s] -- Detecting CXX compile features
+[0.578s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.751s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.862s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.385s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.402s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.402s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.405s] -- Added test 'lint_cmake' to check CMake code style
+[1.407s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.416s] -- Added test 'xmllint' to check XML markup files
+[1.418s] -- Configuring done (1.4s)
+[1.422s] -- Generating done (0.0s)
+[1.425s] -- Build files have been written to: /home/kisrane/panda_ws/build/franka_description
+[1.432s] Invoked command in '/home/kisrane/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kisrane/panda_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/kisrane/panda_ws/install/franka_description
+[1.437s] Invoking command in '/home/kisrane/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kisrane/panda_ws/build/franka_description -- -j3 -l3
+[1.495s] Invoked command in '/home/kisrane/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kisrane/panda_ws/build/franka_description -- -j3 -l3
+[1.510s] Invoking command in '/home/kisrane/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kisrane/panda_ws/build/franka_description
+[1.523s] -- Install configuration: ""
+[1.524s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//launch
+[1.524s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//launch/visualize_franka_duo.launch.py
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/group_definition.xacro
+[1.525s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[1.526s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[1.526s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/common/franka_arm.srdf.xacro
+[1.526s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo
+[1.526s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_fixed_structure.urdf.xacro
+[1.527s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/kinematics.yaml
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/fr3_duo_mount.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/inertials.yaml
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_head.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.urdf.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_arm.urdf.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.srdf.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/kinematics.yaml
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.urdf.xacro
+[1.528s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/inertials.yaml
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.srdf.xacro
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/dynamics.yaml
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/joint_limits.yaml
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/accelerometers.yaml
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer
+[1.529s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[1.530s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/fer.srdf.xacro
+[1.530s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[1.530s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[1.530s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[1.530s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[1.531s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2
+[1.531s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.urdf.xacro
+[1.531s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.xacro
+[1.531s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo.ros2_control.xacro
+[1.532s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3
+[1.532s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[1.532s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[1.532s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[1.532s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/fp3.srdf.xacro
+[1.533s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[1.533s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[1.533s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fp3/accelerometers.yaml
+[1.534s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1
+[1.534s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/kinematics.yaml
+[1.534s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.urdf.xacro
+[1.535s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/inertials.yaml
+[1.535s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.srdf.xacro
+[1.535s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/dynamics.yaml
+[1.535s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/joint_limits.yaml
+[1.535s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/accelerometers.yaml
+[1.536s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3
+[1.538s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[1.538s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[1.538s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[1.538s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/fr3.srdf.xacro
+[1.539s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[1.539s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[1.539s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/fr3/accelerometers.yaml
+[1.539s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2
+[1.539s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.ros2_control.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/inertia.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/argo_drive.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/caster_wheel.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/rocker_arm.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.urdf.xacro
+[1.540s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.srdf.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/common
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes
+[1.541s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories
+[1.612s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_head
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_head/collision
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_head/collision/fr3_duo_head.stl
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_head/visual
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_head/visual/fr3_duo_head.dae
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/collision
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/collision/fr3_duo_cover.stl
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/collision/fr3_duo_mount.stl
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/visual
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/visual/fr3_duo_cover.dae
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/visual/fr3_duo_mount.dae
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/collision
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/collision/franka_spine.stl
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/visual
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/visual/franka_spine.dae
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[1.613s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link7.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link5.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link6.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link3.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link2.stl
+[1.614s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link0.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link1.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link4.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link7.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link5.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link2.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link6.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link1.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link3.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link0.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link4.dae
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link7.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link5.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/hand.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link6.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link3.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link2.stl
+[1.615s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link0.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link1.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link4.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link7.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link5.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link2.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link6.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link1.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link3.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link0.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/finger.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link4.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/hand.dae
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link7.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link5.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link6.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link3.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link2.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link0.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link1.stl
+[1.616s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link4.stl
+[1.617s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual
+[1.617s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link7.dae
+[1.617s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link5.dae
+[1.617s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link2.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link6.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link1.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link3.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link0.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link4.dae
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1
+[1.621s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link7.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link5.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link6.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link3.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link2.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link0.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link1.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link4.stl
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual
+[1.622s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link7.dae
+[1.640s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link5.dae
+[1.641s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link2.dae
+[1.642s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link6.dae
+[1.647s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link1.dae
+[1.649s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link3.dae
+[1.650s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link0.dae
+[1.654s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link4.dae
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link7.stl
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link5.stl
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link6.stl
+[1.655s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link3.stl
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link2.stl
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link0.stl
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link1.stl
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link4.stl
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual
+[1.656s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link7.dae
+[1.658s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link5.dae
+[1.661s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link2.dae
+[1.661s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link6.dae
+[1.664s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link1.dae
+[1.665s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link3.dae
+[1.667s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link0.dae
+[1.671s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link4.dae
+[1.673s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2
+[1.673s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/collision
+[1.673s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/collision/tmrv0_2.stl
+[1.673s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/visual
+[1.673s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/visual/tmrv0_2.dae
+[1.687s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//rviz
+[1.688s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[1.688s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description//rviz/visualize_franka_duo.rviz
+[1.689s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[1.689s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[1.689s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[1.689s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[1.690s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/environment/path.sh
+[1.690s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/environment/path.dsv
+[1.690s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/local_setup.bash
+[1.690s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/local_setup.sh
+[1.690s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/local_setup.zsh
+[1.691s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/local_setup.dsv
+[1.691s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/package.dsv
+[1.691s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[1.692s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[1.692s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[1.692s] -- Installing: /home/kisrane/panda_ws/install/franka_description/share/franka_description/package.xml
+[1.696s] Invoked command in '/home/kisrane/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kisrane/panda_ws/build/franka_description
